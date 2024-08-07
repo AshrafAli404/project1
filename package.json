@@ -2,7 +2,7 @@
   "name": "week17",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AshrafAli404.github.io/viteTest",
+  "homepage": "https://AshrafAli404.github.io/project1",
   "type": "module",
   "scripts": {
     "dev": "vite",
