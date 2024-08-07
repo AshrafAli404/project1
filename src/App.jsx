@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+// import "./App.css";
 import Home from "./components/Home/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./components/About/About";
@@ -8,7 +8,6 @@ import Contact from "./components/Contact/Contact";
 import Layout from "./components/Layout/Layout";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import NotFound from "./components/NotFound/NotFound";
-import Products from "./components/Products/Products";
 
 
 let routers = createBrowserRouter([
@@ -18,7 +17,6 @@ let routers = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "contact", element: <Contact /> },
-      { path: "products", element: <Products /> },
       { path: "*", element: <NotFound /> },
     ],
   },

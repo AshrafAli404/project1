@@ -38,7 +38,6 @@ export default function Navbar() {
                 <ul className={`links ${show ? 'flex':'hidden'} lg:flex flex-col space-y-5 mt-5 lg:flex-row lg:space-x-5 lg:space-y-0 lg:m-0 font-semibold duration-1000`}>
                     <li> <NavLink to="about">about</NavLink> </li>
                     <li> <NavLink to="portfolio">portfolio</NavLink> </li>
-                    <li> <NavLink to="products">products</NavLink> </li>
                     <li> <NavLink to="contact">contact</NavLink> </li>
                 </ul>
 
